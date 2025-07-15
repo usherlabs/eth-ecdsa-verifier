@@ -1,4 +1,4 @@
-# ethereum_ecdsa_verifier
+# eth_ecdsa_verifier
 
 > A simple, no-frills ECDSA verifier for Ethereum signatures in Rust.
 
@@ -31,7 +31,7 @@ eth-ecdsa-verifier = "0.1.0"
 ## 🚀 Usage
 
 ```rust
-use ethereum_ecdsa_verifier::validate_ecdsa_signature;
+use eth_ecdsa_verifier::validate_ecdsa_signature;
 
 fn main() {
     let message = "4RvWUp3E9YerY78Kn5UyyEQPTiFs0tIr/mhAeCbwIpY=".to_string();
