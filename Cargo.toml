@@ -1,5 +1,5 @@
 [package]
-name = "ethereum-ecdsa-verifier"
+name = "eth-ecdsa-verifier"
 version = "0.1.0"
 edition = "2021"
 description = "A simple Ethereum ECDSA signature verifier"

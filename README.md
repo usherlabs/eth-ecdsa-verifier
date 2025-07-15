@@ -21,7 +21,7 @@ Add this crate to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-ethereum-ecdsa-verifier = "0.1.0"
+eth-ecdsa-verifier = "0.1.0"
 ```
 
 > Note: You will also need `libsecp256k1` and `easy-hasher` dependencies (these are re-exported).

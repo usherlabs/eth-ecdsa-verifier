@@ -1,4 +1,4 @@
-name: Publish ethereum-ecdsa-verifier to crates.io
+name: Publish eth-ecdsa-verifier to crates.io
 
 on:
   push:
@@ -47,7 +47,7 @@ jobs:
         run: cargo login ${{ secrets.CARGO_TOKEN }}
 
       # Step 7: Publish the crate
-      - name: Publish ethereum-ecdsa-verifier to crates.io
+      - name: Publish eth-ecdsa-verifier to crates.io
         run: cargo publish --allow-dirty
         env:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_TOKEN }}
