@@ -1,0 +1,19 @@
+[package]
+name = "ethereum-ecdsa-verifier"
+version = "0.1.0"
+edition = "2021"
+description = "A simple Ethereum ECDSA signature verifier"
+license = "MIT"
+authors = ["Usher Labs <labs@usher.so>"]
+readme = "README.md"
+keywords = ["ecdsa", "verification", "verifier", "crypto"]
+categories = ["cryptography", "authentication"]
+repository = "https://github.com/usherlabs/ecdsa-jwt"
+homepage = "https://github.com/usherlabs/ecdsa-jwt"
+
+[dependencies]
+hex = "0.4"
+libsecp256k1 = "0.7"
+easy-hasher = "2.2.1"
+
+[dev-dependencies]
